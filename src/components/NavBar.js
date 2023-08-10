@@ -20,23 +20,21 @@ export default class NavBar extends Component {
           <Link className="nav-link" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/about">About</Link>
+          <Link exact className="nav-link" to="/about">About</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/business">business</Link></li>
+          <Link exact className="nav-link" to="/business">business</Link></li>
         <li className="nav-item">
-          <Link className="nav-link" to="/entertainment">entertainment</Link></li>
+          <Link exact className="nav-link" to="/entertainment">entertainment</Link></li>
         <li className="nav-item">
-          <Link className="nav-link" to="/health">health</Link></li>
+          <Link exact className="nav-link" to="/health">health</Link></li>
         <li className="nav-item">
-          <Link className="nav-link" to="/science">science</Link></li>
+          <Link exact className="nav-link" to="/science">science</Link></li>
         <li className="nav-item">
-          <Link className="nav-link" to="/sports">sports</Link></li>
+          <Link exact className="nav-link" to="/sports">sports</Link></li>
         <li className="nav-item">
-          <Link className="nav-link" to="/technology">technology</Link></li>
-        
-      </ul>
-      
+          <Link exact className="nav-link" to="/technology">technology</Link></li>        
+      </ul>      
     </div>
   </div>
 </nav>
